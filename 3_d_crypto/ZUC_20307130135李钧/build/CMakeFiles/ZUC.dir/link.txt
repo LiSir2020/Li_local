@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\ZUC.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\ZUC.dir/objects.a @CMakeFiles\ZUC.dir\objects1
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ZUC.dir/objects.a -Wl,--no-whole-archive -o E:\0Tree_Down\crypto\0last2\ZUC\ZUC.exe -Wl,--out-implib,E:\0Tree_Down\crypto\0last2\ZUC\libZUC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ZUC.dir\linkLibs.rsp

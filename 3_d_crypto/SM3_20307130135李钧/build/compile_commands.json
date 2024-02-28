@@ -1,0 +1,12 @@
+[
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/SM3/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\SM3.dir\\Smain.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\SM3\\Smain.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/SM3/Smain.cpp"
+},
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/SM3/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\SM3.dir\\SM3.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\SM3\\SM3.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/SM3/SM3.cpp"
+}
+]

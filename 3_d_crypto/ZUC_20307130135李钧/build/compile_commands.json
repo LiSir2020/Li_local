@@ -1,0 +1,22 @@
+[
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/ZUC/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ZUC.dir\\Zmain.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\ZUC\\Zmain.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/ZUC/Zmain.cpp"
+},
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/ZUC/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ZUC.dir\\ZUC.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\ZUC\\ZUC.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/ZUC/ZUC.cpp"
+},
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/ZUC/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ZUC.dir\\ZUC_jm.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\ZUC\\ZUC_jm.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/ZUC/ZUC_jm.cpp"
+},
+{
+  "directory": "E:/0Tree_Down/crypto/0last2/ZUC/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ZUC.dir\\ZUC_wz.cpp.obj -c E:\\0Tree_Down\\crypto\\0last2\\ZUC\\ZUC_wz.cpp",
+  "file": "E:/0Tree_Down/crypto/0last2/ZUC/ZUC_wz.cpp"
+}
+]
