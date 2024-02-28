@@ -1,0 +1,27 @@
+digraph checkIsLegalMove {
+	node [shape=rectangle]
+	addr_396474 [label="Start_Address: 396474:
+monitor-exit v5\nreturn v4\n"]
+	addr_396478 [label="Start_Address: 396478:
+add-int/lit8 v1, v1, 1\ngoto -0x13\n"]
+	addr_396484 [label="Start_Address: 396484:
+const/4 v4, 0\ngoto -0x6\n"]
+	addr_396420 [label="Start_Address: 396420:
+monitor-enter v5\ninvoke-static {v6, v7}, Ljwtc/chess/Move;->makeMove(II)I\nmove-result v0\niget-object v4, v5, Ljwtc/chess/GameControl;->_jni:Ljwtc/chess/JNI;\ninvoke-virtual {v4}, Ljwtc/chess/JNI;->getMoveArraySize()I\nmove-result v3\nconst/4 v1, 0\n"]
+	addr_396444 [label="Start_Address: 396444:
+if-ge v1, v3, +0x14\n"]
+	addr_396448 [label="Start_Address: 396448:
+iget-object v4, v5, Ljwtc/chess/GameControl;->_jni:Ljwtc/chess/JNI;\ninvoke-virtual {v4, v1}, Ljwtc/chess/JNI;->getMoveArrayAt(I)I\nmove-result v2\ninvoke-static {v0, v2}, Ljwtc/chess/Move;->equalPositions(II)Z\nmove-result v4\nif-eqz v4, +0x5\n"]
+	addr_396488 [label="Start_Address: 396488:
+move-exception v4\nmonitor-exit v5\nthrow v4\n", root=true]
+	addr_396472 [label="Start_Address: 396472:
+const/4 v4, 1\n"]
+	addr_396478 -> addr_396444
+	addr_396484 -> addr_396474
+	addr_396420 -> addr_396444
+	addr_396444 -> addr_396448
+	addr_396444 -> addr_396484
+	addr_396448 -> addr_396472
+	addr_396448 -> addr_396478
+	addr_396472 -> addr_396474
+}

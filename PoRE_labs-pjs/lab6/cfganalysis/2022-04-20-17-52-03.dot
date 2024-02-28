@@ -1,0 +1,26 @@
+digraph getType {
+	node [shape=rectangle]
+	addr_394742 [label="Start_Address: 394742:
+const-string v0, \"vnd.android.cursor.item/vnd.jwtc.chesspuzzle\"\ngoto -0x3\n"]
+	addr_394668 [label="Start_Address: 394668:
+sget-object v0, Ljwtc/chess/ChessPuzzleProvider;->sUriMatcher:Landroid/content/UriMatcher;\ninvoke-virtual {v0, v4}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I\nmove-result v0\n"]
+	addr_394680 [label="Start_Address: 394680:
+packed-switch v0, +0x28\nnew-instance v0, Ljava/lang/IllegalArgumentException;\nnew-instance v1, Ljava/lang/StringBuilder;\ninvoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V\nconst-string v2, \"Unknown URI \"\ninvoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\nmove-result-object v1\ninvoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;\nmove-result-object v1\ninvoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;\nmove-result-object v1\ninvoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V\nthrow v0\n"]
+	addr_394754 [label="Start_Address: 394754:
+const-string v0, \"vnd.android.cursor.item/vnd.jwtc.chesspuzzle\"\ngoto -0x9\npacked-switch-payload\n", root=true]
+	addr_394736 [label="Start_Address: 394736:
+const-string v0, \"vnd.android.cursor.dir/vnd.jwtc.chesspuzzle\"\n"]
+	addr_394748 [label="Start_Address: 394748:
+const-string v0, \"vnd.android.cursor.dir/vnd.jwtc.chesspuzzle\"\ngoto -0x6\n"]
+	addr_394740 [label="Start_Address: 394740:
+return-object v0\n"]
+	addr_394742 -> addr_394740
+	addr_394668 -> addr_394680
+	addr_394680 -> addr_394736
+	addr_394680 -> addr_394742
+	addr_394680 -> addr_394748
+	addr_394680 -> addr_394754
+	addr_394754 -> addr_394740
+	addr_394736 -> addr_394740
+	addr_394748 -> addr_394740
+}

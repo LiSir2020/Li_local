@@ -1,0 +1,128 @@
+<svg width="1550px" height="508px"
+ viewBox="0.00 0.00 1550.00 508.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 504.0)">
+<title>getType</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-504 1546,-504 1546,4 -4,4"/>
+<!-- addr_394742 -->
+<g id="node1" class="node">
+<title>addr_394742</title>
+<polygon fill="none" stroke="black" points="376,-134.5 0,-134.5 0,-81.5 376,-81.5 376,-134.5"/>
+<text text-anchor="middle" x="188" y="-119.3" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394742:</text>
+<text text-anchor="middle" x="188" y="-104.3" font-family="Times New Roman,serif" font-size="14.00">const&#45;string v0, &quot;vnd.android.cursor.item/vnd.jwtc.chesspuzzle&quot;</text>
+<text text-anchor="middle" x="188" y="-89.3" font-family="Times New Roman,serif" font-size="14.00">goto &#45;0x3</text>
+</g>
+<!-- addr_394740 -->
+<g id="node2" class="node">
+<title>addr_394740</title>
+<polygon fill="none" stroke="black" points="845,-38 697,-38 697,0 845,0 845,-38"/>
+<text text-anchor="middle" x="771" y="-22.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394740:</text>
+<text text-anchor="middle" x="771" y="-7.8" font-family="Times New Roman,serif" font-size="14.00">return&#45;object v0</text>
+</g>
+<!-- addr_394742&#45;&gt;addr_394740 -->
+<g id="edge1" class="edge">
+<title>addr_394742&#45;&gt;addr_394740</title>
+<path fill="none" stroke="black" d="M337.71,-81.49C353.67,-78.9 369.66,-76.36 385,-74 488.69,-58.07 608.36,-41.63 686.63,-31.14"/>
+<polygon fill="black" stroke="black" points="687.47,-34.56 696.91,-29.76 686.54,-27.62 687.47,-34.56"/>
+</g>
+<!-- addr_394668 -->
+<g id="node3" class="node">
+<title>addr_394668</title>
+<polygon fill="none" stroke="black" points="1044.5,-500 497.5,-500 497.5,-432 1044.5,-432 1044.5,-500"/>
+<text text-anchor="middle" x="771" y="-484.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394668:</text>
+<text text-anchor="middle" x="771" y="-469.8" font-family="Times New Roman,serif" font-size="14.00">sget&#45;object v0, Ljwtc/chess/ChessPuzzleProvider;&#45;&gt;sUriMatcher:Landroid/content/UriMatcher;</text>
+<text text-anchor="middle" x="771" y="-454.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v0, v4}, Landroid/content/UriMatcher;&#45;&gt;match(Landroid/net/Uri;)I</text>
+<text text-anchor="middle" x="771" y="-439.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result v0</text>
+</g>
+<!-- addr_394680 -->
+<g id="node4" class="node">
+<title>addr_394680</title>
+<polygon fill="none" stroke="black" points="1065,-396 477,-396 477,-178 1065,-178 1065,-396"/>
+<text text-anchor="middle" x="771" y="-380.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394680:</text>
+<text text-anchor="middle" x="771" y="-365.8" font-family="Times New Roman,serif" font-size="14.00">packed&#45;switch v0, +0x28</text>
+<text text-anchor="middle" x="771" y="-350.8" font-family="Times New Roman,serif" font-size="14.00">new&#45;instance v0, Ljava/lang/IllegalArgumentException;</text>
+<text text-anchor="middle" x="771" y="-335.8" font-family="Times New Roman,serif" font-size="14.00">new&#45;instance v1, Ljava/lang/StringBuilder;</text>
+<text text-anchor="middle" x="771" y="-320.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;direct {v1}, Ljava/lang/StringBuilder;&#45;&gt;&lt;init&gt;()V</text>
+<text text-anchor="middle" x="771" y="-305.8" font-family="Times New Roman,serif" font-size="14.00">const&#45;string v2, &quot;Unknown URI &quot;</text>
+<text text-anchor="middle" x="771" y="-290.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v1, v2}, Ljava/lang/StringBuilder;&#45;&gt;append(Ljava/lang/String;)Ljava/lang/StringBuilder;</text>
+<text text-anchor="middle" x="771" y="-275.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result&#45;object v1</text>
+<text text-anchor="middle" x="771" y="-260.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v1, v4}, Ljava/lang/StringBuilder;&#45;&gt;append(Ljava/lang/Object;)Ljava/lang/StringBuilder;</text>
+<text text-anchor="middle" x="771" y="-245.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result&#45;object v1</text>
+<text text-anchor="middle" x="771" y="-230.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v1}, Ljava/lang/StringBuilder;&#45;&gt;toString()Ljava/lang/String;</text>
+<text text-anchor="middle" x="771" y="-215.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result&#45;object v1</text>
+<text text-anchor="middle" x="771" y="-200.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;direct {v0, v1}, Ljava/lang/IllegalArgumentException;&#45;&gt;&lt;init&gt;(Ljava/lang/String;)V</text>
+<text text-anchor="middle" x="771" y="-185.8" font-family="Times New Roman,serif" font-size="14.00">throw v0</text>
+</g>
+<!-- addr_394668&#45;&gt;addr_394680 -->
+<g id="edge2" class="edge">
+<title>addr_394668&#45;&gt;addr_394680</title>
+<path fill="none" stroke="black" d="M771,-431.71C771,-423.99 771,-415.33 771,-406.2"/>
+<polygon fill="black" stroke="black" points="774.5,-406.12 771,-396.12 767.5,-406.12 774.5,-406.12"/>
+</g>
+<!-- addr_394680&#45;&gt;addr_394742 -->
+<g id="edge4" class="edge">
+<title>addr_394680&#45;&gt;addr_394742</title>
+<path fill="none" stroke="black" d="M476.94,-196.72C406.21,-175.25 335.68,-153.83 282.01,-137.54"/>
+<polygon fill="black" stroke="black" points="282.77,-134.11 272.19,-134.56 280.74,-140.81 282.77,-134.11"/>
+</g>
+<!-- addr_394736 -->
+<g id="node5" class="node">
+<title>addr_394736</title>
+<polygon fill="none" stroke="black" points="762,-127 394,-127 394,-89 762,-89 762,-127"/>
+<text text-anchor="middle" x="578" y="-111.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394736:</text>
+<text text-anchor="middle" x="578" y="-96.8" font-family="Times New Roman,serif" font-size="14.00">const&#45;string v0, &quot;vnd.android.cursor.dir/vnd.jwtc.chesspuzzle&quot;</text>
+</g>
+<!-- addr_394680&#45;&gt;addr_394736 -->
+<g id="edge3" class="edge">
+<title>addr_394680&#45;&gt;addr_394736</title>
+<path fill="none" stroke="black" d="M653.17,-177.94C635.36,-161.61 618.58,-146.21 605.4,-134.13"/>
+<polygon fill="black" stroke="black" points="607.42,-131.24 597.69,-127.06 602.69,-136.39 607.42,-131.24"/>
+</g>
+<!-- addr_394748 -->
+<g id="node6" class="node">
+<title>addr_394748</title>
+<polygon fill="none" stroke="black" points="1148,-134.5 780,-134.5 780,-81.5 1148,-81.5 1148,-134.5"/>
+<text text-anchor="middle" x="964" y="-119.3" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394748:</text>
+<text text-anchor="middle" x="964" y="-104.3" font-family="Times New Roman,serif" font-size="14.00">const&#45;string v0, &quot;vnd.android.cursor.dir/vnd.jwtc.chesspuzzle&quot;</text>
+<text text-anchor="middle" x="964" y="-89.3" font-family="Times New Roman,serif" font-size="14.00">goto &#45;0x6</text>
+</g>
+<!-- addr_394680&#45;&gt;addr_394748 -->
+<g id="edge5" class="edge">
+<title>addr_394680&#45;&gt;addr_394748</title>
+<path fill="none" stroke="black" d="M888.83,-177.94C903.25,-164.71 917,-152.1 928.71,-141.37"/>
+<polygon fill="black" stroke="black" points="931.09,-143.93 936.09,-134.6 926.36,-138.78 931.09,-143.93"/>
+</g>
+<!-- addr_394754 -->
+<g id="node7" class="node">
+<title>addr_394754</title>
+<polygon fill="none" stroke="black" points="1542,-142 1166,-142 1166,-74 1542,-74 1542,-142"/>
+<text text-anchor="middle" x="1354" y="-126.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 394754:</text>
+<text text-anchor="middle" x="1354" y="-111.8" font-family="Times New Roman,serif" font-size="14.00">const&#45;string v0, &quot;vnd.android.cursor.item/vnd.jwtc.chesspuzzle&quot;</text>
+<text text-anchor="middle" x="1354" y="-96.8" font-family="Times New Roman,serif" font-size="14.00">goto &#45;0x9</text>
+<text text-anchor="middle" x="1354" y="-81.8" font-family="Times New Roman,serif" font-size="14.00">packed&#45;switch&#45;payload</text>
+</g>
+<!-- addr_394680&#45;&gt;addr_394754 -->
+<g id="edge6" class="edge">
+<title>addr_394680&#45;&gt;addr_394754</title>
+<path fill="none" stroke="black" d="M1065.06,-196.72C1125.42,-178.4 1185.63,-160.12 1235.34,-145.03"/>
+<polygon fill="black" stroke="black" points="1236.59,-148.3 1245.14,-142.05 1234.55,-141.61 1236.59,-148.3"/>
+</g>
+<!-- addr_394736&#45;&gt;addr_394740 -->
+<g id="edge7" class="edge">
+<title>addr_394736&#45;&gt;addr_394740</title>
+<path fill="none" stroke="black" d="M617.99,-88.97C648.14,-75.38 689.65,-56.67 721.82,-42.17"/>
+<polygon fill="black" stroke="black" points="723.38,-45.3 731.06,-38 720.51,-38.92 723.38,-45.3"/>
+</g>
+<!-- addr_394748&#45;&gt;addr_394740 -->
+<g id="edge8" class="edge">
+<title>addr_394748&#45;&gt;addr_394740</title>
+<path fill="none" stroke="black" d="M907.4,-81.48C879.74,-69.02 846.77,-54.16 820.17,-42.17"/>
+<polygon fill="black" stroke="black" points="821.61,-38.97 811.05,-38.05 818.73,-45.36 821.61,-38.97"/>
+</g>
+<!-- addr_394754&#45;&gt;addr_394740 -->
+<g id="edge9" class="edge">
+<title>addr_394754&#45;&gt;addr_394740</title>
+<path fill="none" stroke="black" d="M1165.81,-75.36C1162.85,-74.9 1159.91,-74.45 1157,-74 1053.31,-58.07 933.64,-41.63 855.37,-31.14"/>
+<polygon fill="black" stroke="black" points="855.46,-27.62 845.09,-29.76 854.53,-34.56 855.46,-27.62"/>
+</g>
+</g>
+</svg>

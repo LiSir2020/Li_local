@@ -1,0 +1,127 @@
+<svg width="736px" height="537px"
+ viewBox="0.00 0.00 736.28 537.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 533.0)">
+<title>checkIsLegalMove</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-533 732.28,-533 732.28,4 -4,4"/>
+<!-- addr_396474 -->
+<g id="node1" class="node">
+<title>addr_396474</title>
+<polygon fill="none" stroke="black" points="503.5,-53 355.5,-53 355.5,0 503.5,0 503.5,-53"/>
+<text text-anchor="middle" x="429.5" y="-37.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396474:</text>
+<text text-anchor="middle" x="429.5" y="-22.8" font-family="Times New Roman,serif" font-size="14.00">monitor&#45;exit v5</text>
+<text text-anchor="middle" x="429.5" y="-7.8" font-family="Times New Roman,serif" font-size="14.00">return v4</text>
+</g>
+<!-- addr_396478 -->
+<g id="node2" class="node">
+<title>addr_396478</title>
+<polygon fill="none" stroke="black" points="274.5,-342.5 126.5,-342.5 126.5,-289.5 274.5,-289.5 274.5,-342.5"/>
+<text text-anchor="middle" x="200.5" y="-327.3" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396478:</text>
+<text text-anchor="middle" x="200.5" y="-312.3" font-family="Times New Roman,serif" font-size="14.00">add&#45;int/lit8 v1, v1, 1</text>
+<text text-anchor="middle" x="200.5" y="-297.3" font-family="Times New Roman,serif" font-size="14.00">goto &#45;0x13</text>
+</g>
+<!-- addr_396444 -->
+<g id="node3" class="node">
+<title>addr_396444</title>
+<polygon fill="none" stroke="black" points="420.5,-216 272.5,-216 272.5,-178 420.5,-178 420.5,-216"/>
+<text text-anchor="middle" x="346.5" y="-200.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396444:</text>
+<text text-anchor="middle" x="346.5" y="-185.8" font-family="Times New Roman,serif" font-size="14.00">if&#45;ge v1, v3, +0x14</text>
+</g>
+<!-- addr_396478&#45;&gt;addr_396444 -->
+<g id="edge1" class="edge">
+<title>addr_396478&#45;&gt;addr_396444</title>
+<path fill="none" stroke="black" d="M232.54,-289.32C257.28,-269.5 291.29,-242.24 315.71,-222.68"/>
+<polygon fill="black" stroke="black" points="317.98,-225.34 323.59,-216.36 313.6,-219.88 317.98,-225.34"/>
+</g>
+<!-- addr_396448 -->
+<g id="node4" class="node">
+<title>addr_396448</title>
+<polygon fill="none" stroke="black" points="401,-529 0,-529 0,-416 401,-416 401,-529"/>
+<text text-anchor="middle" x="200.5" y="-513.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396448:</text>
+<text text-anchor="middle" x="200.5" y="-498.8" font-family="Times New Roman,serif" font-size="14.00">iget&#45;object v4, v5, Ljwtc/chess/GameControl;&#45;&gt;_jni:Ljwtc/chess/JNI;</text>
+<text text-anchor="middle" x="200.5" y="-483.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v4, v1}, Ljwtc/chess/JNI;&#45;&gt;getMoveArrayAt(I)I</text>
+<text text-anchor="middle" x="200.5" y="-468.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result v2</text>
+<text text-anchor="middle" x="200.5" y="-453.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;static {v0, v2}, Ljwtc/chess/Move;&#45;&gt;equalPositions(II)Z</text>
+<text text-anchor="middle" x="200.5" y="-438.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result v4</text>
+<text text-anchor="middle" x="200.5" y="-423.8" font-family="Times New Roman,serif" font-size="14.00">if&#45;eqz v4, +0x5</text>
+</g>
+<!-- addr_396444&#45;&gt;addr_396448 -->
+<g id="edge2" class="edge">
+<title>addr_396444&#45;&gt;addr_396448</title>
+<path fill="none" stroke="black" d="M272.48,-205.56C213.13,-213.33 136.67,-227.78 117.5,-252 82.19,-296.6 97.01,-326.93 117.5,-380 121.25,-389.7 126.55,-399.02 132.69,-407.73"/>
+<polygon fill="black" stroke="black" points="130.01,-410 138.81,-415.91 135.62,-405.8 130.01,-410"/>
+</g>
+<!-- addr_396484 -->
+<g id="node6" class="node">
+<title>addr_396484</title>
+<polygon fill="none" stroke="black" points="452.5,-142 304.5,-142 304.5,-89 452.5,-89 452.5,-142"/>
+<text text-anchor="middle" x="378.5" y="-126.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396484:</text>
+<text text-anchor="middle" x="378.5" y="-111.8" font-family="Times New Roman,serif" font-size="14.00">const/4 v4, 0</text>
+<text text-anchor="middle" x="378.5" y="-96.8" font-family="Times New Roman,serif" font-size="14.00">goto &#45;0x6</text>
+</g>
+<!-- addr_396444&#45;&gt;addr_396484 -->
+<g id="edge3" class="edge">
+<title>addr_396444&#45;&gt;addr_396484</title>
+<path fill="none" stroke="black" d="M353.76,-177.96C356.94,-170.07 360.77,-160.54 364.47,-151.36"/>
+<polygon fill="black" stroke="black" points="367.75,-152.59 368.23,-142 361.25,-149.97 367.75,-152.59"/>
+</g>
+<!-- addr_396448&#45;&gt;addr_396478 -->
+<g id="edge5" class="edge">
+<title>addr_396448&#45;&gt;addr_396478</title>
+<path fill="none" stroke="black" d="M200.5,-415.72C200.5,-394.82 200.5,-371.63 200.5,-352.98"/>
+<polygon fill="black" stroke="black" points="204,-352.86 200.5,-342.86 197,-352.86 204,-352.86"/>
+</g>
+<!-- addr_396472 -->
+<g id="node5" class="node">
+<title>addr_396472</title>
+<polygon fill="none" stroke="black" points="691.5,-216 543.5,-216 543.5,-178 691.5,-178 691.5,-216"/>
+<text text-anchor="middle" x="617.5" y="-200.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396472:</text>
+<text text-anchor="middle" x="617.5" y="-185.8" font-family="Times New Roman,serif" font-size="14.00">const/4 v4, 1</text>
+</g>
+<!-- addr_396448&#45;&gt;addr_396472 -->
+<g id="edge4" class="edge">
+<title>addr_396448&#45;&gt;addr_396472</title>
+<path fill="none" stroke="black" d="M401.28,-417.82C404.37,-417.2 407.45,-416.59 410.5,-416 474.92,-403.59 660.03,-429.13 703.5,-380 741.19,-337.39 731.03,-301.79 703.5,-252 696.43,-239.21 684.93,-229.05 672.6,-221.14"/>
+<polygon fill="black" stroke="black" points="674.36,-218.12 663.98,-216.03 670.79,-224.14 674.36,-218.12"/>
+</g>
+<!-- addr_396472&#45;&gt;addr_396474 -->
+<g id="edge6" class="edge">
+<title>addr_396472&#45;&gt;addr_396474</title>
+<path fill="none" stroke="black" d="M597.38,-177.97C565.94,-149.79 504.73,-94.92 465.54,-59.8"/>
+<polygon fill="black" stroke="black" points="467.8,-57.13 458.01,-53.06 463.13,-62.34 467.8,-57.13"/>
+</g>
+<!-- addr_396484&#45;&gt;addr_396474 -->
+<g id="edge7" class="edge">
+<title>addr_396484&#45;&gt;addr_396474</title>
+<path fill="none" stroke="black" d="M393.53,-88.87C398.46,-80.45 404.03,-70.95 409.29,-61.98"/>
+<polygon fill="black" stroke="black" points="412.37,-63.65 414.41,-53.25 406.33,-60.11 412.37,-63.65"/>
+</g>
+<!-- addr_396420 -->
+<g id="node7" class="node">
+<title>addr_396420</title>
+<polygon fill="none" stroke="black" points="694,-380 293,-380 293,-252 694,-252 694,-380"/>
+<text text-anchor="middle" x="493.5" y="-364.8" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396420:</text>
+<text text-anchor="middle" x="493.5" y="-349.8" font-family="Times New Roman,serif" font-size="14.00">monitor&#45;enter v5</text>
+<text text-anchor="middle" x="493.5" y="-334.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;static {v6, v7}, Ljwtc/chess/Move;&#45;&gt;makeMove(II)I</text>
+<text text-anchor="middle" x="493.5" y="-319.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result v0</text>
+<text text-anchor="middle" x="493.5" y="-304.8" font-family="Times New Roman,serif" font-size="14.00">iget&#45;object v4, v5, Ljwtc/chess/GameControl;&#45;&gt;_jni:Ljwtc/chess/JNI;</text>
+<text text-anchor="middle" x="493.5" y="-289.8" font-family="Times New Roman,serif" font-size="14.00">invoke&#45;virtual {v4}, Ljwtc/chess/JNI;&#45;&gt;getMoveArraySize()I</text>
+<text text-anchor="middle" x="493.5" y="-274.8" font-family="Times New Roman,serif" font-size="14.00">move&#45;result v3</text>
+<text text-anchor="middle" x="493.5" y="-259.8" font-family="Times New Roman,serif" font-size="14.00">const/4 v1, 0</text>
+</g>
+<!-- addr_396420&#45;&gt;addr_396444 -->
+<g id="edge8" class="edge">
+<title>addr_396420&#45;&gt;addr_396444</title>
+<path fill="none" stroke="black" d="M413.98,-251.71C400.93,-241.32 388.14,-231.14 377.26,-222.48"/>
+<polygon fill="black" stroke="black" points="379.35,-219.67 369.35,-216.18 374.99,-225.15 379.35,-219.67"/>
+</g>
+<!-- addr_396488 -->
+<g id="node8" class="node">
+<title>addr_396488</title>
+<polygon fill="none" stroke="black" points="567.5,-506.5 419.5,-506.5 419.5,-438.5 567.5,-438.5 567.5,-506.5"/>
+<text text-anchor="middle" x="493.5" y="-491.3" font-family="Times New Roman,serif" font-size="14.00">Start_Address: 396488:</text>
+<text text-anchor="middle" x="493.5" y="-476.3" font-family="Times New Roman,serif" font-size="14.00">move&#45;exception v4</text>
+<text text-anchor="middle" x="493.5" y="-461.3" font-family="Times New Roman,serif" font-size="14.00">monitor&#45;exit v5</text>
+<text text-anchor="middle" x="493.5" y="-446.3" font-family="Times New Roman,serif" font-size="14.00">throw v4</text>
+</g>
+</g>
+</svg>
