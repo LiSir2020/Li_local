@@ -1,0 +1,81 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue May 17 16:36:40 2022
+| Host         : Li-Jun-Computer running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      8 |            1 |
+|     10 |            1 |
+|     12 |            2 |
+|    16+ |            8 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              32 |           19 |
+| No           | No                    | Yes                    |              20 |            5 |
+| No           | Yes                   | No                     |             229 |          107 |
+| Yes          | No                    | No                     |              20 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              58 |           23 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+--------------------------------+---------------------------+------------------+----------------+
+|     Clock Signal     |          Enable Signal         |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------+--------------------------------+---------------------------+------------------+----------------+
+| ~CLK100MHZ_IBUF_BUFG | BTNL_IBUF                      | mips/dp/r2M/q_reg[1]_0[0] |                1 |              1 |
+| ~CLK100MHZ_IBUF_BUFG | mips/dp/r2M/q_reg[7]_0[0]      |                           |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | mips/dp/r2D/E[0]               | BTNC_IBUF                 |                7 |             10 |
+| ~CLK100MHZ_IBUF_BUFG | mips/dp/r2M/q_reg[3]_0[0]      | BTNC_IBUF                 |                5 |             12 |
+| ~CLK100MHZ_IBUF_BUFG | dmemDecoder/IO/led[11]_i_1_n_1 |                           |                3 |             12 |
+| ~CLK100MHZ_IBUF_BUFG | BTNR_IBUF                      | BTNC_IBUF                 |                6 |             17 |
+|  CLK100MHZ_IBUF_BUFG | mips/dp/r2D/E[0]               | mips/dp/r2D/q[31]_i_1_n_1 |                4 |             18 |
+| ~CLK100MHZ_IBUF_BUFG |                                | BTNC_IBUF                 |                5 |             20 |
+|  n_0_374_BUFG        |                                |                           |               19 |             32 |
+|  CLK100MHZ_IBUF_BUFG |                                | mips/dp/r2D/SR[0]         |               48 |             86 |
+| ~CLK100MHZ_IBUF_BUFG | mips/c/regW/q_reg[1]_0[0]      |                           |               12 |             96 |
+|  CLK100MHZ_IBUF_BUFG | mips/c/regM/WE                 |                           |               32 |            128 |
+|  CLK100MHZ_IBUF_BUFG |                                | BTNC_IBUF                 |               59 |            143 |
++----------------------+--------------------------------+---------------------------+------------------+----------------+
+
+

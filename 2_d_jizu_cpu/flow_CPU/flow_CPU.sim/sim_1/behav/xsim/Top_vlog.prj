@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../flow_CPU.srcs/sources_1/new/MIPS.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/adder.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/alu.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/aludec.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/controller.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/datapath.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/dmem.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/eqcmp.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/flopenr.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/flopenrc.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/flopr.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/floprc.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/hazard.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/imem.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/maindec.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/mux2.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/mux3.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/regfile.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/signext.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/sl2.sv" \
+"../../../../flow_CPU.srcs/sources_1/new/Top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
